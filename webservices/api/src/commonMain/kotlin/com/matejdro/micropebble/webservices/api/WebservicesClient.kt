@@ -1,13 +1,11 @@
 package com.matejdro.micropebble.webservices.api
 
-import androidx.compose.runtime.Stable
 import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.Serializable
 import si.inova.kotlinova.core.outcome.CauseException
 import si.inova.kotlinova.core.outcome.Outcome
 import kotlin.uuid.Uuid
 
-@Stable
 @Serializable
 data class ParsedWebservicesToken(
    val sourceId: Uuid? = null,

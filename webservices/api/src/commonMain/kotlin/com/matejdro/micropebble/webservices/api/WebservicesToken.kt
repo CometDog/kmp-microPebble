@@ -1,10 +1,8 @@
 package com.matejdro.micropebble.webservices.api
 
-import androidx.compose.runtime.Stable
 import kotlinx.serialization.Serializable
 import kotlin.uuid.Uuid
 
-@Stable
 @Serializable
 data class WebservicesToken(
    val sourceId: Uuid,
