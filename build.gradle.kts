@@ -29,12 +29,12 @@ dependencyAnalysis {
 
       bundle("compose") {
          // Compose libraries are blanket-included to for convenience. It shouldn't cause a big issue
-         includeGroup("androidx.compose.animation")
-         includeGroup("androidx.compose.foundation")
-         includeGroup("androidx.compose.material")
-         includeGroup("androidx.compose.material3")
-         includeGroup("androidx.compose.runtime")
-         includeGroup("androidx.compose.ui")
+         includeGroup("org.jetbrains.compose.animation")
+         includeGroup("org.jetbrains.compose.foundation")
+         includeGroup("org.jetbrains.compose.material")
+         includeGroup("org.jetbrains.compose.material3")
+         includeGroup("org.jetbrains.compose.runtime")
+         includeGroup("org.jetbrains.compose.ui")
       }
 
       // Library Groups:

@@ -28,6 +28,6 @@ dependencies {
    implementation(libs.composePreference)
    implementation(libs.kotlin.coroutines)
    implementation(libs.dispatch)
-   implementation(libs.androidx.compose.material3.sizeClasses)
+   implementation(libs.jetbrains.compose.material3.sizeClasses)
    implementation(libs.libpebble3)
 }
