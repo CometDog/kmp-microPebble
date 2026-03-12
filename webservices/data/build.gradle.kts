@@ -1,5 +1,5 @@
 plugins {
-   androidLibraryModule
+   multiplatformModule
    di
    serialization
 }

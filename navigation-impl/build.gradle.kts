@@ -1,6 +1,6 @@
 plugins {
-   androidLibraryModule
-   compose
+   multiplatformModule
+   composeMultiplatform
    di
    navigation
 }

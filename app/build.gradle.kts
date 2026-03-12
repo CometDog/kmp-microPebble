@@ -1,6 +1,6 @@
 plugins {
    androidAppModule
-   compose
+   composeMultiplatform
    navigation
    parcelize
    serialization
